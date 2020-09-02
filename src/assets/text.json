@@ -1,0 +1,75 @@
+{
+  "appTitle": "User Creator",
+  "themeColor": {
+    "purple": "purple darken-2",
+    "secondary": "secondary"
+  },
+  "alerts": {
+    "notFound": "No user list"
+  },
+  "pages": {
+    "home": {
+      "titles": {
+        "users": "All users",
+        "create": "New user"
+      },
+      "warnings": {
+        "userDeleted": "User deleted successfully",
+        "userCreated": "User created successfully"
+      }
+    },
+    "user": {
+      "links": {
+        "home": "Home"
+      },
+      "warnings": {
+        "userDeleted": "Are you sure you want to delete the user?",
+        "userUpdated": "User updated successfully"
+      },
+      "btns": {
+        "delete": "Delete",
+        "cancel": "Cancel"
+      }
+    },
+    "notFound": {
+      "title": "Sorry, the requested page does not exist or has been deleted",
+      "linkText": "home page",
+      "text": "404",
+      "subtext": "Page not found"
+    }
+  },
+  "layouts": {
+    "default": {
+      "btns": {
+        "submit": "Submit"
+      }
+    }
+  },
+  "components": {
+    "form": {
+      "labels": {
+        "name": "Name",
+        "email": "Email",
+        "address": "Address",
+        "content": "User content"
+      },
+      "errors": {
+        "input": "Field can't be empty"
+      }
+    },
+    "searchUser": {
+      "labels": {
+        "search": "Type name of user for search"
+      }
+    },
+    "edit": {
+      "title": "Edit user",
+      "btns": {
+        "close": "Close"
+      },
+      "warnings": {
+        "warningEdited": "User edited successfuly"
+      }
+    }
+  }
+}
